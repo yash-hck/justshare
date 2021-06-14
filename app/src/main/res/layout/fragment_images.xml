@@ -6,17 +6,12 @@
     tools:context=".ImagesFragment">
 
 
-    <GridView
-        android:padding="5dp"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:numColumns="4"
-        android:verticalSpacing="10dp"
-        android:horizontalSpacing="5dp"
-        android:id="@+id/galleryGrid"/>
-
-
+        android:scrollbars="none"
+        />
 
 </FrameLayout>
 
