@@ -24,8 +24,6 @@ public class ImageAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
     private ArrayList<ImageModel> imageList;
 
     private static OnItemClickListener onItemClickListener;
-    private final static int IMAGE_LIST = 0;
-    private final static int IMAGE_PICKER = 1;
 
     public ImageAdapter(Context context, ArrayList<ImageModel> list){
         this.context = context;

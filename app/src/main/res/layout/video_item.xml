@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/videoThumbnail"
+        android:layout_height="match_parent"
+
+        android:layout_width="70dp"
+        android:src="@drawable/loading" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginStart="30dp"
+        android:layout_weight="4"
+        android:layout_gravity="center_vertical"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:padding="10dp"
+            android:id="@+id/videoTitle"
+            android:layout_height="wrap_content"
+            android:text="LOki"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/videoSubtitle"
+            android:text="today"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="7dp"
+            android:paddingBottom="5dp"/>
+
+    </LinearLayout>
+
+    <CheckBox
+        android:button="@drawable/custom_checkbox"
+        android:id="@+id/videoCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        />
+
+</LinearLayout>
