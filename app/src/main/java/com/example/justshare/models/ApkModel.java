@@ -1,10 +1,37 @@
 package com.example.justshare.models;
 
+import android.graphics.drawable.Drawable;
+import android.util.Log;
+
 public class ApkModel {
     private String apkPath;
     private String title;
     private String packageName;
+    private String versionName;
+    private Drawable icon;
+    private int versionCode = 0;
     private boolean isSelected;
+
+
+    public void printInfo(){
+        Log.d("data is here lelo",title + "\t" + packageName + "\t" + versionName + "\t" + versionCode);
+    }
+
+    public String getVersionName() {
+        return versionName;
+    }
+
+    public void setVersionName(String versionName) {
+        this.versionName = versionName;
+    }
+
+    public Drawable getIcon() {
+        return icon;
+    }
+
+    public void setIcon(Drawable icon) {
+        this.icon = icon;
+    }
 
     public String getTitle(){
         return title;

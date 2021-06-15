@@ -7,6 +7,7 @@
     <ImageView
         android:id="@+id/videoThumbnail"
         android:layout_width="70dp"
+
         android:layout_height="match_parent"
         android:src="@drawable/loading" />
 
@@ -25,7 +26,7 @@
             android:layout_height="wrap_content"
             android:text="LOki"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textSize="20sp" />
+            android:textSize="15sp" />
 
         <TextView
             android:id="@+id/videoSubtitle"
