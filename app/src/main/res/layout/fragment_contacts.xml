@@ -6,7 +6,7 @@
     tools:context=".fragments.ContactsFragment">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/videosView"
+        android:id="@+id/contactsView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:scrollbars="none"/>
