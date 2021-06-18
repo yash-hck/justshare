@@ -1,7 +1,9 @@
 package com.example.justshare;
 
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -51,5 +53,9 @@ public class selectMediaActivity extends AppCompatActivity implements ImagesFrag
     @Override
     public void onFragmentInteraction(Uri uri) {
 
+    }
+
+    public void goToSendActivity(View view) {
+        startActivity(new Intent(selectMediaActivity.this, SendActivity.class));
     }
 }

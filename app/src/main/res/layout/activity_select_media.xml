@@ -27,6 +27,8 @@
         android:background="#637AF7"
         android:textColor="#FFFFFF"
         android:letterSpacing="0.4"
+        android:clickable="true"
+        android:onClick="goToSendActivity"
         android:textStyle="bold"
         android:padding="10dp"
         android:layout_height="wrap_content"/>
